@@ -1,0 +1,44 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+body{
+    color: white;
+    background-image: url(/Task1/assets/img/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+    width: 36em;
+    height: em40;
+    margin-top: 100px;
+    margin-left: 400px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255, .5);
+    backdrop-filter: blur(10px);
+}
+
+th,td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+fieldset{
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    min-width: 200px;
+}
+
+h1{
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+button{
+    width: 5em;
+    text-align: center;
+}

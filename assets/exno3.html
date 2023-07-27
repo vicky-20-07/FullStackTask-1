@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/Task1/assets/css/exno3.css">
+</head>
+<body>
+    <div class="container">
+        <h1 align="center">REGISTRATION FORM</h1>
+        <form>
+            <table align="center">
+                <tr>
+                    <td>
+                        <label for="fname">First Name</label>
+                    </td>
+                    <td>
+                        <input name="fname" type="text" placeholder="Enter First Name" required>
+                    </td>
+                
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="lname">Last Name</label>
+                    </td>
+                    <td>
+                        <input name="lname" type="text" placeholder="Enter Last Name">
+                    </td>
+                    
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="dob">Date of birth</label>
+                    </td>
+                    <td>
+                        <input type="date" name="dob">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="age">Age</label>
+                    </td>
+                    <td>
+                        <select name="age" >
+                            <option>
+                                Enter age
+                            </option>
+                            <option>
+                                10-20
+                            </option>
+                            <option>
+                                20-30
+                            </option>
+                            <option>
+                                30-40
+                            </option>
+                            <option>
+                                40-50
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender">male
+                        <input type="radio" name="gender">female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mail">E-mail</label>
+                    </td>
+                    <td>
+                        <input type="email" name="mail" placeholder="Enter E-mail">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" name="pass" placeholder="Enter Password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Phone number</label>
+                    </td>
+                    <td>
+                        <input type="number" name="phone" placeholder="Enter Phone Number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address">Address</label>
+                    </td>
+                    <td>
+                        <textarea name="address" cols="23" placeholder="Enter Address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="checkbox" required>I agree to the Term of Use
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <button type="submit" style="background-color: greenyellow;">submit</button>
+                    </td>
+                    <td align="center">
+                        <button type="reset" style="background-color: red;">reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
